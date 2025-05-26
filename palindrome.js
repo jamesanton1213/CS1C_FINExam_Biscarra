@@ -1,5 +1,5 @@
-let red = prompt("RACECAR");
-let blue = prompt("RECORDER");
+let red = prompt("Enter the first word (RACECAR):");
+let blue = prompt("Enter the second word (RECORDER):");
 
 function reverseString(str) {
     return str.split('').reverse().join('');
